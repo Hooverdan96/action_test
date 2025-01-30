@@ -37,7 +37,7 @@ jobs:
 
       # install the latest version of Rockon validator
       - name: Setup latest Rockon validator
-        run: |
+      - run: |
           go install github.com/rockstor/rockon-validator@latest
           echo "${{ github.workspace }}/bin" >> $GITHUB_PATH
 
@@ -47,7 +47,7 @@ jobs:
       
       # Use reviewdog to suggest changes
       - name: Reviewdog Action Suggester
-        uses: reviewdog/action-suggester@v1
+      - uses: reviewdog/action-suggester@v1
         with:
           tool_name: rockon-validator
           filter_mode: nofilter
