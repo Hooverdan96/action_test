@@ -46,12 +46,12 @@ jobs:
           files: |
             **.json
 
-# show differentials based on ideal Rockon schema
+# show differentials based on ideal Rockon schema and whether it's in the root.json file
       - name: Process all changed json files
         if: steps.changed-json-files.outputs.any_changed == 'true'
         env:
           ALL_CHANGED_FILES: ${{ steps.changed-json-files.outputs.all_changed_files }}
         run: |
           for jsonfile in ${ALL_CHANGED_FILES}; do
-            rockon-validator -d $jsonfile
+            rockon-validator -d -r $jsonfile
           done
