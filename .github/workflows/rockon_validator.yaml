@@ -41,7 +41,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       #- name: run validation (no rewrite)
-      - run: /bin/rockon-validator -w .
+      - run: rockon-validator -w .
       - uses: reviewdog/action-suggester@v1
         with:
           tool_name: rockon-validator
