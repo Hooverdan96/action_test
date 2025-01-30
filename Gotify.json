@@ -1,7 +1,7 @@
 {
     "Gotify": {
         "description": "A simple server for sending and receiving messages. <p>Based on the official docker image: <a href='https://hub.docker.com/r/gotify/server' target='_blank'>https://hub.docker.com/r/gotify/server</a>, available for amd64 architecture only.</p>",
-        "version": "1.1",
+        "version": "1.2",
         "website": "https://gotify.net/",
         "more_info": "<p>Default username is <code>admin</code> and password is <code>admin</code>. For usage instructions visit <a href=\"https://gotify.net/docs/first-login\" target=\"_blank\">the gotify Getting Started guide</a></p>",
         "containers": {

@@ -18,7 +18,7 @@
     "Ghost": "ghost.json",
     "GitLab CE": "gitlab-rc.json",
     "Gogs": "gogs.json",
-    "Gotify": "Gotify.json",
+    "gollum": "gollum.json",
     "HDHomeRun DVR": "hdhomerun_dvr.json",
     "HTTP to HTTPS redirect": "redirect-http-to-https.json",
     "HandBrake": "handbrake.json",
