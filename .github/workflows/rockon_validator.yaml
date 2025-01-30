@@ -37,9 +37,8 @@ jobs:
 
       # install the latest version of Rockon validator
       - name: Setup latest Rockon validator
-      - run: |
-          go install github.com/rockstor/rockon-validator@latest
-          echo "${{ github.workspace }}/bin" >> $GITHUB_PATH
+      - run: go install github.com/rockstor/rockon-validator@latest
+      - run: echo "${{ github.workspace }}/bin" >> $GITHUB_PATH
 
       # Runs a set of commands using the runners shell
       - name: run validation (no rewrite)
