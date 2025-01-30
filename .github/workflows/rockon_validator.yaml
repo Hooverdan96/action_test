@@ -46,7 +46,7 @@ jobs:
       - run: rockon-validator -w .
       
       # Use reviewdog to suggest changes
-      - name: Reviewdog Action Suggester
+      #- name: Reviewdog Action Suggester
       - uses: reviewdog/action-suggester@v1
         with:
           tool_name: rockon-validator
