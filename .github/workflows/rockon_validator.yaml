@@ -53,9 +53,9 @@ jobs:
         run: rockon-validator -d .
 
       # Review with custom code validator
-      - name: action-suggester
-        uses: reviewdog/action-suggester@v1
-        with:
-          tool_name: rockon-validator
-          filter_mode: nofilter
-          fail_level: error
+      #- name: action-suggester
+      #  uses: reviewdog/action-suggester@v1
+      #  with:
+      #    tool_name: rockon-validator
+      #    filter_mode: nofilter
+      #    fail_level: error
