@@ -18,7 +18,6 @@
     "Ghost": "ghost.json",
     "GitLab CE": "gitlab-rc.json",
     "Gogs": "gogs.json",
-    "Gollum": "gollum.json",
     "Gotify": "Gotify.json",
     "HDHomeRun DVR": "hdhomerun_dvr.json",
     "HTTP to HTTPS redirect": "redirect-http-to-https.json",
@@ -77,6 +76,7 @@
     "YouTrack official": "youtrack-official.json",
     "Zabbix-XXL": "zabbix-xxl.json",
     "ecoDMS 18.09": "ecodms18-09.json",
+    "gollum": "gollum.json",
     "qBittorrent": "qbittorrent_lsio.json",
     "sabnzb": "sabnzb.json"
 }
