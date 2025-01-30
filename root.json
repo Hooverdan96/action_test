@@ -9,8 +9,9 @@
     "Dropbox": "dropbox.json",
     "DuckDNS": "duckdns.json",
     "Duplicati - by Linuxserver.io": "duplicati-lsio.json",
-    "ESPHome": "ESPHome.json",
+    "ecoDMS 18.09": "ecodms18-09.json",
     "Emby server": "embyserver.json",
+    "ESPHome": "ESPHome.json",
     "FileBot Node": "filebot-node.json",
     "Filebrowser": "filebrowser.json",
     "Folding@home Linuxserver.io": "foldingathome-linuxserver.json",
@@ -19,6 +20,7 @@
     "GitLab CE": "gitlab-rc.json",
     "Gogs": "gogs.json",
     "gollum": "gollum.json",
+    "gotify": "Gotify.json",
     "HDHomeRun DVR": "hdhomerun_dvr.json",
     "HTTP to HTTPS redirect": "redirect-http-to-https.json",
     "HandBrake": "handbrake.json",
@@ -55,7 +57,9 @@
     "Plex": "plex.json",
     "PocketMine": "pocketmine.json",
     "Radarr": "radarr.json",
+    "qBittorrent": "qbittorrent_lsio.json",
     "Resilio Sync": "resilioSync.json",
+    "sabnzb": "sabnzb.json"
     "Scrutiny": "scrutiny.json",
     "Seafile v7+": "seafile7+.json",
     "SickChill": "sickchill.json",
@@ -75,8 +79,4 @@
     "WireGuard Easy": "WireGuardEasy.json",
     "YouTrack official": "youtrack-official.json",
     "Zabbix-XXL": "zabbix-xxl.json",
-    "ecoDMS 18.09": "ecodms18-09.json",
-    "gollum": "gollum.json",
-    "qBittorrent": "qbittorrent_lsio.json",
-    "sabnzb": "sabnzb.json"
 }
