@@ -59,7 +59,7 @@
     "Radarr": "radarr.json",
     "qBittorrent": "qbittorrent_lsio.json",
     "Resilio Sync": "resilioSync.json",
-    "sabnzb": "sabnzb.json"
+    "sabnzb": "sabnzb.json",
     "Scrutiny": "scrutiny.json",
     "Seafile v7+": "seafile7+.json",
     "SickChill": "sickchill.json",
@@ -78,5 +78,5 @@
     "Web Service Discovery For Windows Networks": "wsdd.json",
     "WireGuard Easy": "WireGuardEasy.json",
     "YouTrack official": "youtrack-official.json",
-    "Zabbix-XXL": "zabbix-xxl.json",
+    "Zabbix-XXL": "zabbix-xxl.json"
 }

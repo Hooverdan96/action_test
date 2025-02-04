@@ -53,5 +53,5 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-json-files.outputs.all_changed_files }}
         run: |
           for jsonfile in ${ALL_CHANGED_FILES}; do
-            rockon-validator -d $jsonfile
+            rockon-validator -c -d $jsonfile
           done
